@@ -2,7 +2,9 @@ const express = require("express");
 const { resolve } = require("path");
 const router = express.Router();
 
-// /routes/goods.js
+
+
+
 const goods = [
     {
         goodsId: 4,

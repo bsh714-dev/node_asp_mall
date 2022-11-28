@@ -6,6 +6,8 @@ const goodsRouter = require('./routes/goods.js')
 const connect = require("./schemas");
 connect();
 
+
+
 app.use(express.json());
 
 const cartsRouter = require("./routes/carts");
